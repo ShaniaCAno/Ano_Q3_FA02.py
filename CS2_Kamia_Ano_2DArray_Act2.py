@@ -19,3 +19,4 @@ for i, row in enumerate(quiz_scores):
 
 max_score = max(max(row) for row in quiz_scores)
 print(f"\nHighest score in dataset: {max_score}")
+#Using a 2D array made it much easier to organize the quiz scores because each student’s data was grouped together in rows. This structure allowed me to quickly calculate totals and averages using simple loops, instead of handling each score individually. The easiest part was printing and summing the rows, while finding the maximum required a bit more thought since I had to check across all rows. Overall, arrays helped simplify the process of analyzing patterns in the dataset.
